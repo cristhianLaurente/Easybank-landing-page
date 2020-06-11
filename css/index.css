@@ -24,7 +24,7 @@ body {
 .header__nav {
     border: 1px solid green;
     display: flex;
-    width: 800px;
+    width: 900px;
 }
 
 .header__nav-item {
@@ -40,7 +40,13 @@ body {
 
 .header__nav-item ul li {
     border: 1px solid blue;
-    width: 100px;
+    width: 80px;
+}
+
+.header__nav-item ul li a {
+    /* border: 1px solid blue; */
+    text-decoration: none;
+    color: #000;
 }
 
 .header__nav-link {
