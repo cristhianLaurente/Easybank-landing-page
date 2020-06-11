@@ -7,3 +7,22 @@ body {
     box-sizing: border-box;
     margin: 0;
 }
+
+.header {
+    border: 1px solid red;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+    border: 1px solid blue;
+    height: 100%;
+    width: 200px;
+}
+
+.header__nav {
+    border: 1px solid green;
+    display: flex;
+    width: 800px;
+}
