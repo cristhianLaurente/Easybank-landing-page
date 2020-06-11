@@ -26,3 +26,25 @@ body {
     display: flex;
     width: 800px;
 }
+
+.header__nav-item {
+    border: 1px solid blue;
+    flex: 2;
+}
+
+.header__nav-item ul {
+    border: 1px solid peru;
+    display: flex;
+    height: 100%;
+}
+
+.header__nav-item ul li {
+    border: 1px solid blue;
+    width: 100px;
+}
+
+.header__nav-link {
+    border: 1px solid green;
+    flex: 1;
+    height: 100%;
+}
