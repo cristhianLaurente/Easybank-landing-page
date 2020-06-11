@@ -49,17 +49,26 @@ body {
     border: 1px solid peru;
     display: flex;
     height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__nav-item ul li {
     border: 1px solid blue;
     width: 80px;
+    list-style: none;
 }
 
 .header__nav-item ul li a {
     /* border: 1px solid blue; */
     text-decoration: none;
-    color: #000;
+    color: var(--grayishBlue);
+    font-weight: 400;
+}
+
+.header__nav-item ul li a:hover {
+    color: var(--darkBlue);
 }
 
 .header__nav-link {
