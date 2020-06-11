@@ -74,6 +74,7 @@ body {
     border-bottom: 4px solid transparent;
     border-image: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
     border-image-slice: 1;
+    cursor: pointer;
 }
 
 .header__nav-item ul li a {
